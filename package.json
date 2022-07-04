@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "server": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,8 +15,9 @@
     "canvas": "^2.7.0",
     "express": "^4.17.1",
     "googleapis": "^73.0.0",
-    "nodemon": "^2.0.7",
+    "nodemon": "^2.0.12",
     "table": "^6.7.1",
     "telegraf": "^4.3.0"
-  }
+  },
+  "devDependencies": {}
 }
